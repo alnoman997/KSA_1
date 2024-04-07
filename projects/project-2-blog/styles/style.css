@@ -1,0 +1,18 @@
+nav > ul > li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li > a{
+    text-decoration: none;
+}
+
+.main-footer{
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+}
+
+.tags{
+    text-decoration: none;
+}

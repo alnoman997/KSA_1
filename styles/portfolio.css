@@ -1,0 +1,137 @@
+.banner {
+    background-image: url('../images/IMG20231124120059.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 80px 30px 30px 100px;
+}
+
+.banner-content {
+    max-width: 600px;
+    height: 500px;
+}
+
+.greeting {
+    font-size: 45px;
+    margin: 0px;
+}
+
+.profile-name {
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.bio {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+/* nav style ends */
+
+.columns {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+#left-col {
+    max-width: 50%;
+}
+
+#right-col {
+    max-width: 50%;
+}
+
+.left-col-title {
+    padding-bottom: 20px;
+}
+
+.blog-post {
+    padding-bottom: 20px;
+}
+
+.blog-post-title {
+    margin: 0px auto;
+}
+
+.blog-description {
+    margin: 10px auto;
+}
+
+.about {
+    background-color: aquamarine;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.about-me-description {
+    text-align: justify;
+}
+
+/* Mailing style starts here*/
+
+.mailing {
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-content {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.asterisk {
+    color: red;
+    font-size: 16px;
+}
+
+/* End mailing */

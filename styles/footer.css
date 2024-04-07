@@ -1,0 +1,26 @@
+/* Footer for all */
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.footer-title {
+    font-size: 24px;
+}
+
+.social {
+    display: inline;
+    margin-right: 50px;
+}
+
+.social a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer for all */
